@@ -1,0 +1,46 @@
+﻿# -------------------------------
+# Node.js dependencies
+# -------------------------------
+node_modules/
+
+# -------------------------------
+# Environment variables (API keys, secrets)
+# -------------------------------
+.env
+
+# -------------------------------
+# n8n local data
+# -------------------------------
+.n8n/
+
+# -------------------------------
+# Logs
+# -------------------------------
+*.log
+
+# -------------------------------
+# OS system files
+# -------------------------------
+.DS_Store
+Thumbs.db
+
+# -------------------------------
+# IDE/editor specific files
+# -------------------------------
+.vscode/
+.idea/
+
+# -------------------------------
+# Temporary files / caches
+# -------------------------------
+*.tmp
+*.swp
+*.swo
+
+# -------------------------------
+
+# Optional: ignore other local config files
+# e.g., npm debug logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
